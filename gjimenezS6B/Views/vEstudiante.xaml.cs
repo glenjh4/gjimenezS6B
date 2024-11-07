@@ -6,7 +6,7 @@ namespace gjimenezS6B.Views;
 
 public partial class vEstudiante : ContentPage
 {
-	private const string Url = "http://192.168.17.49/wsestudiantes/estudiante.php";
+	private const string Url = "http://127.0.0.1/wsestudiantes/estudiante.php";
 	private readonly HttpClient cliente = new HttpClient();
 	private ObservableCollection<Models.Estudiante> estud;
 
