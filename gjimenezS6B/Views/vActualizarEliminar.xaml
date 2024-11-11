@@ -6,6 +6,7 @@
     <VerticalStackLayout>
         <Label 
             Text="Actualizar - Eliminar estudiantes"
+            FontSize="20"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Entry x:Name="txtCodigo"
@@ -23,11 +24,13 @@
         </Entry>
         <Button x:Name="btnActualizar"
                 Text="Actualizar"
+                BackgroundColor="GreenYellow"
                 Clicked="btnActualizar_Clicked"/>
         
         <Button x:Name="btnEliminar"
-        Text="Eliminar"
-        Clicked="btnEliminar_Clicked"/>
+                Text="Eliminar"
+                BackgroundColor="Red"
+                Clicked="btnEliminar_Clicked"/>
 
 
     </VerticalStackLayout>

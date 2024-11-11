@@ -15,12 +15,14 @@
                     <RowDefinition></RowDefinition>
                     <RowDefinition></RowDefinition>
                 </Grid.RowDefinitions>
+                
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
+                
                 <Label Text="Codigo" 
                        Grid.Row="0" 
                        Grid.Column="0" 
@@ -36,13 +38,13 @@
                        Grid.Column="2" 
                        HorizontalOptions="Center">
                 </Label>
-                
+
                 <Label Text="Edad" 
                        Grid.Row="0" 
                        Grid.Column="3" 
                        HorizontalOptions="Center">
                 </Label>
-
+                
                 <ListView x:Name="lvEstudiantes" 
                           Grid.Row="1" 
                           Grid.ColumnSpan="4" 
@@ -57,18 +59,22 @@
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                         <ColumnDefinition Width="*"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
+                                    
                                     <Label Text="{Binding codigo}" 
                                            Grid.Column="0" 
                                            HorizontalOptions="Center">
                                     </Label>
+                                    
                                     <Label Text="{Binding nombre}"
                                            Grid.Column="1" 
                                            HorizontalOptions="Center">
                                     </Label>
+                                    
                                     <Label Text="{Binding apellido}" 
                                            Grid.Column="2" 
                                            HorizontalOptions="Center">
                                     </Label>
+                                    
                                     <Label Text="{Binding edad}" 
                                            Grid.Column="3" 
                                            HorizontalOptions="Center">
