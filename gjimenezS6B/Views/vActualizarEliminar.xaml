@@ -24,7 +24,7 @@
         </Entry>
         <Button x:Name="btnActualizar"
                 Text="Actualizar"
-                BackgroundColor="GreenYellow"
+                BackgroundColor="Beige"
                 Clicked="btnActualizar_Clicked"/>
         
         <Button x:Name="btnEliminar"

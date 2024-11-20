@@ -7,10 +7,10 @@ namespace gjimenezS6B.Views;
 
 public partial class vActualizarEliminar : ContentPage
 {
-    public vActualizarEliminar()
-    {
-        InitializeComponent();
-    }
+        public vActualizarEliminar()
+        {
+            InitializeComponent();
+        }
     public vActualizarEliminar(Estudiante datos)
 	{
 		InitializeComponent();
